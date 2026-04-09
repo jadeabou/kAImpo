@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import Head from 'next/head'
 import { supabase } from '../lib/supabase'
-import '../styles/globals.css'
 
 // ── Translations ──────────────────────────────────────────────────
 const T = {
